@@ -41,9 +41,9 @@ artifacts {
     archives javadocJar, sourcesJar
 }
 
-signing {
-    sign configurations.archives
-}
+//signing {
+//    sign configurations.archives
+//}
 
 build {
     afterReleaseBuild.dependsOn uploadArchives
